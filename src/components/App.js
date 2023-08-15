@@ -17,7 +17,7 @@ const App = () => {
         <h2>Child Component 2</h2>
         <button onClick={() => setContent("Option 2")}>Option 2</button>
       </div>
-        {<div> Selected Option : {content}</div>}
+        {<div> Selected Option: {content}</div>}
     </div>
   )
 }
